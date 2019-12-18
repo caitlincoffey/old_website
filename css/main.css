@@ -15,7 +15,7 @@
     width: 200px;
     height: 200px;
     margin: auto;
-    border: 5px solid round transparent;
+    border: 10px solid round transparent;
 }
 
 a:link, a:visited {
