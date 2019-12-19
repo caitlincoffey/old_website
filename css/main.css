@@ -1,7 +1,13 @@
+body {
+    background-color: lightgrey;
+}
+
 .panel {
     background-color: lightgoldenrodyellow;
+    opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
     width: 300px;
-    margin: 400px, 50px, 50px, 50px;
+    margin: 1000px, 50px, 50px, 50px;
     font: 15px 'Roboto', monospace;
     text-align: center;
 }
@@ -13,14 +19,13 @@
 .panel img {
     width: 200px;
     height: 200px;
-    margin: 50px, 10px, 10px, 10px;
     border: 20px solid transparent;
     border-radius: 25px;
 }
 
 .material-icons i {
     size: 20px;
-    color: pink;
+    color: lightcoral;
 }
 
 .nav {
