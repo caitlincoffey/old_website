@@ -7,7 +7,6 @@ body {
 }
 
 #profile_panel {
-    font: 15px 'Roboto', monospace;
     text-align: center;
     position: relative;
     top: 30px;
@@ -20,10 +19,19 @@ body {
     border-radius: 20px;
 }
 
+#profile_panel text {
+    font: 15px 'Roboto', monospace;
+}
+
 #profile_panel img {
     width: 200px;
     height: 200px;
     border-radius: 20px;
+}
+
+.tabs {
+    font: 25px 'Roboto', monospace;
+    padding: 5px;
 }
 
 #nav {
@@ -37,10 +45,6 @@ body {
     padding: 5px;
 }
 
-.tabs {
-    font-size: 25px;
-    padding: 5px;
-}
 
 .posts {
     background-color: white;
