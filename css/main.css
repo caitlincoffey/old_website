@@ -13,10 +13,10 @@ a:hover {
     }
 
 ::selection {
-    background: pink; /* WebKit/Blink Browsers */
+    background: lightpink; /* WebKit/Blink Browsers */
     }
 ::-moz-selection {
-    background: pink; /* Gecko Browsers */
+    background: lightpink; /* Gecko Browsers */
     }
 
 
@@ -95,9 +95,4 @@ a:hover {
     font-size: 25px;
     width: 400px;
     margin-left: 150px;
-}
-
-#projects_header:hover {
-    border-bottom: 3px solid pink;
-    transition: 1s;
 }
