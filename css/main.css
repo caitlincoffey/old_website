@@ -1,9 +1,9 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(233, 232, 232);
 }
 
 .panel {
-    background-color: lightgrey;
+    background-color: rgba(255,255,255,.5)
     width: 300px;
     margin: 50px;
     top: 100px;
@@ -33,11 +33,11 @@ body {
     border-bottom: 2px solid black;
     top: 0;
     width: 100%;
-    font: 20px 'Roboto', monospace;
+    font: 15px 'Roboto', monospace;
 }
 
 .nav a {
-    margin: 50px, 10px;
+    margin:20px;
 }
 
 .nav a:hover {
