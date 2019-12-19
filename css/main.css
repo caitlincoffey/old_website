@@ -37,6 +37,25 @@ body {
     padding: 5px;
 }
 
+.posts {
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    font: 14px 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+#projects_header {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 5px;
+    font-size: 20px;
+}
+
 a:link, a:visited {
     color: black;
     text-decoration: none;
