@@ -30,8 +30,8 @@ body {
 }
 
 .tabs {
-    font: 25px 'Roboto', monospace;
-    padding: 5px;
+    font: 30px 'Roboto', monospace;
+    margin-top:10px;
 }
 
 #nav {
