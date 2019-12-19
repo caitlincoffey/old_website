@@ -37,6 +37,11 @@ body {
     padding: 5px;
 }
 
+.tabs {
+    font-size: 25px;
+    padding: 5px;
+}
+
 .posts {
     background-color: white;
     position: relative;
