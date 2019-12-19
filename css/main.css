@@ -2,21 +2,22 @@ body {
     background-color: rgb(233, 232, 232);
 }
 
+.fa {
+    margin: 5px;
+}
+
 .panel {
     font: 15px 'Roboto', monospace;
     text-align: center;
     position: relative;
-    top: 0px;
+    top: 30px;
+    left: 30px;
     background: white;
     width: 300px;
     height: auto;
     padding: 20px;
+    border: 1px dashed black;
     border-radius: 20px;
-}
-
-
-.panel text {
-    margin: 20px, 5px, 20px, 5px;
 }
 
 .panel img {
