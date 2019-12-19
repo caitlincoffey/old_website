@@ -6,7 +6,7 @@ body {
     margin: 5px;
 }
 
-.panel {
+#profile_panel {
     font: 15px 'Roboto', monospace;
     text-align: center;
     position: relative;
@@ -20,13 +20,13 @@ body {
     border-radius: 20px;
 }
 
-.panel img {
+#profile_panel img {
     width: 200px;
     height: 200px;
     border-radius: 20px;
 }
 
-.nav {
+#nav {
     background-color: white;
     border-bottom: 2px solid black;
     top: 0px;
