@@ -3,7 +3,7 @@ body {
 }
 
 a:link, a:visited {
-    color: grey;
+    color: black;
     text-decoration: none;
     }
       
@@ -63,10 +63,6 @@ a:hover {
     margin-top:10px;
 }
 
-.tabs a:link, a:visited {
-    color: black;
-}
-
 #nav {
     background-color: white;
     border-bottom: 2px solid black;
@@ -82,7 +78,7 @@ a:hover {
 #post_panel {
     background-color: white;
     position: relative;
-    top: 20px;
+    top: 15px;
     left: 100px;
     width: 700px;
     height: 400px;
@@ -102,5 +98,6 @@ a:hover {
 }
 
 #projects_header:hover {
-    border-bottom-color: pink;
+    border-bottom: 3px solid pink;
+    transition: 1s;
 }
