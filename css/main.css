@@ -1,22 +1,42 @@
-.nav {
-    border-bottom: 2px solid black;
+#panel {
     background-color: lightgoldenrodyellow;
     width: 300px;
-    margin: 400px, 50px, 200px, 50px;
+    margin: 400px, 50px, 50px, 50px;
     font: 15px 'Roboto', monospace;
     text-align: center;
 }
 
-.nav text {
-    margin: 10px, 5px, 10px, 5px;
+#panel text {
+    margin: 20px, 5px, 20px, 5px;
 }
 
-.nav img {
+#panel img {
     width: 200px;
     height: 200px;
-    margin: 50px, 10px, 10px, 50px;
+    margin: 50px, 10px, 10px, 10px;
     border: 20px solid transparent;
     border-radius: 25px;
+}
+
+.material-icons i {
+    size: 20px;
+    color: pink;
+}
+
+#nav {
+    background-color: lightgoldenrodyellow;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 0px;
+    font: 20px 'Roboto', monospace;
+}
+
+#nav a {
+    margin: 50px, 10px;
+}
+
+#nav a:hover {
+    border-bottom: 2px solid pink;
 }
 
 a:link, a:visited {
@@ -26,5 +46,5 @@ a:link, a:visited {
       
 a:hover {
      color: pink;
-     text-decoration: underline;
+     transition: 1s;
     }
