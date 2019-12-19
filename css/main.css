@@ -1,4 +1,4 @@
-#panel {
+.panel {
     background-color: lightgoldenrodyellow;
     width: 300px;
     margin: 400px, 50px, 50px, 50px;
@@ -6,11 +6,11 @@
     text-align: center;
 }
 
-#panel text {
+.panel text {
     margin: 20px, 5px, 20px, 5px;
 }
 
-#panel img {
+.panel img {
     width: 200px;
     height: 200px;
     margin: 50px, 10px, 10px, 10px;
@@ -23,7 +23,7 @@
     color: pink;
 }
 
-#nav {
+.nav {
     background-color: lightgoldenrodyellow;
     border-bottom: 2px solid black;
     width: 100%;
@@ -31,11 +31,11 @@
     font: 20px 'Roboto', monospace;
 }
 
-#nav a {
+.nav a {
     margin: 50px, 10px;
 }
 
-#nav a:hover {
+.nav a:hover {
     border-bottom: 2px solid pink;
 }
 
