@@ -9,7 +9,8 @@
 
     </head>
     <body>
-        <div class="nav">
+        <col>
+        <div id="nav">
             <a href="/"><i class="fa fa-home" aria-hidden="true"></i>
             </i></a>
             <a href="mailto:ccoffey@olin.edu"><i class="fa fa-envelope" aria-hidden="true"></i>
@@ -19,19 +20,28 @@
             <a href="https://github.com/caitlincoffey"><i class="fa fa-github" aria-hidden="true"></i>
             </a>
         </div>
-        <div class="panel">
-            <text>
-                <img src="/images/profile.png" alt="My picture">
-                <br>
-                <h2>Caitlin Coffey</h2>
-                Student at the Olin College of Engineering. Majoring in Engineering with Computing.
-            </text>
-        </div>
-        <div class="posts">
-            <h2 id="projects_header">
-                Past and Current Projects
-            </h2>
-        </div>
+        <table>
+            <colgroup>
+            <col span="1">
+            </colgroup>
+            <tr><th>
+                <div id="profile_panel">
+                    <text>
+                        <img src="/images/profile.png" alt="My picture">
+                        <br>
+                        <h2>Caitlin Coffey</h2>
+                        Student at the <a href="https://olin.edu">Olin College of Engineering</a>. Majoring in Engineering with Computing with an AHS (Arts, Humanities, and Social Sciences) concentration in Music Composition.
+                    </text>
+                </div>
+            </th>
+            <th>
+                <div class="posts">
+                    <h2 id="projects_header">
+                        Past and Current Projects
+                    </h2>
+                </div>
+            </th></tr>
+        </table>
 
     </body>
 </html>
