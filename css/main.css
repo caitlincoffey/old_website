@@ -110,5 +110,6 @@ a:hover {
 
 #post_panel th {
     width: 100px;
+    padding: 10px;
     word-wrap: break-word;
-} 
+}
