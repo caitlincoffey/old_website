@@ -1,119 +1,75 @@
 <!DOCTYPE html>
 <html>
-<!--- Caitlin's website layout - free to use -->
-<head>
-  <!---<script src="https://use.fontawesome.com/5c97653ad9.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">--->
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <link rel="shortcut icon" type="image/png" href="/images/favicon-16x16.png"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="layout layout--fixed-header
-             layout--fixed-tabs">
-  <header class="layout_header">
-    <div class="layout_header-row">
-      <!-- title -->
-      <span class="layout-title">Caitlin Coffey</span>
-    </div>
-    <!-- tabs -->
-    <div class="layout_tab-bar">
-      <a href="#about_tab" class="layout_tab is-active">About</a>
-      <a href="#projects_tab" class=" layout_tab">Projects</a>
-    </div>
-  </header>
+    <head>
+        <script src="https://use.fontawesome.com/5c97653ad9.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="shortcut icon" type="image/png" href="/images/favicon-16x16.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Caitlin Coffey</title>
 
-  <div class="layout_drawer">
-    <span class="layout-title">Caitlin Coffey</span>
-    <div class="avatar">
-      <img src="/images/profile.png" class="avatar-img">
-    </div>
-    <!-- avatar -->
-
-    <div class="drawer-text">
-      Hello! Testing
-    </div>
-    <!-- drawer-text -->
-  </div>
-  <!-- layout_drawer -->
-
-  <div class="layout_content">
-
-    <div class="layout_tab-panel is-active" id="about_tab">
-      <div> <!-- maybe delete? -->
-        <div class="subtitle-section">
-          <div class="subtitle-text">
-
-            <h1>Testing</h1>
-            <p>
-              Testing
-            </p>
-
-            <a class="button subtitle-downbutton" href="#intro">
-              <i class="material-icons">keyboard_arrow_down</i>
+    </head>
+    <body>
+        <col>
+        <!-- <div id="nav">
+            <a href="/"><i class="fa fa-home" aria-hidden="true"></i>
+            </i></a>
+            <a href="mailto:ccoffey@olin.edu"><i class="fa fa-envelope" aria-hidden="true"></i>
             </a>
+            <a href="https://www.linkedin.com/in/caitlin-coffey-26673b189/"><i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/caitlincoffey"><i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+        </div> -->
+        <table>
+            <colgroup>
+            <col span="1">
+            </colgroup>
+            <tr><th>
+                <div id="profile_panel">
+                    <text>
+                        <img src="/images/profile.png" alt="My picture">
+                        <br>
+                        <h1>Caitlin Coffey</h1>
+                        Student studying Engineering with Computing at the <a href="https://olin.edu">Olin College of Engineering</a>.
+                    </text>
+                    <br>
+                    <div class="tabs">
+                        <a href="mailto:ccoffey@olin.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/caitlin-coffey-26673b189/" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/caitlincoffey" title="Github"><i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/caitlincoffey" title="HackerRank"><i class="fab fa-hackerrank"></i>
+                        </a>
+                    </div>
+                </div>
+            </th>
+            <th>
+                <div id="post_panel">
+                    <h2 id="projects_header">
+                        Past and Current Projects
+                    </h2>
+                    <table>
+                        <tr>
+                            <th>
+                                Test 1
+                            </th>
+                            <th>
+                                Test 2
+                            </th>
+                            <th>
+                                Test 3
+                            </th>
+                            <th>
+                                Test 4
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </th></tr>
+        </table>
 
-          </div> <!-- subtitle text -->
-        </div> <!-- subtitle section -->
-
-        <!-- INTRO -->
-        <div id="intro" class="intro-section">
-          <div class="about">
-            <p>
-              Testing!
-              Testing 123
-            </p>
-          </div> <!-- intro section -->
-        </div>
-      </div> <!-- page-content -->
-    </div> <!-- about tab -->
-
-    <div class="layout_tab-panel" id="projects_tab">
-      <div>
-        <!-- Project projects  -->
-        <div class="grid projects-section">
-          <div class="project  project-2">
-            <div class="project_title">
-              <h2 class="project_title-text">Project 2</h2>
-            </div>
-            <div class="project_supporting-text">
-              Testing
-            </div>
-          </div>
-          <!-- /. project -->
-          <div class="project project-3">
-            <div class="project_title">
-              <h2 class="project_title-text">Project 3</h2>
-            </div>
-            <div class="project_supporting-text">
-              Testing
-            </div>
-            <div>
-              <a class="button">
-									Testing
-							</a>
-            </div>
-          </div>
-          <!--/. project -->
-
-          <div class="cell  cell--3-col  cell--8-col-tablet  cell--4-col-phone  project  shadow--2dp project-1">
-            <div class="project_title">
-              <h2 class="project_title-text">Project 1</h2>
-            </div>
-            <div class="project_supporting-text">
-              Testing
-            </div>
-            <div class="project_actions  project--border">
-              <a class="button">
-									More on Project 1
-							</a>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-  <!-- layout_content -->
-</div>
-<!-- layout -->
-</body>
+    </body>
 </html>
