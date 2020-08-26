@@ -101,7 +101,7 @@ a:hover {
     background-color: whitesmoke;
     border-radius: 20px;
     width: 600px;
-    height: 200px;
+    height: 600px;
     padding: 10px;
     margin-top: 30px;
     margin-left: 50px;
@@ -112,6 +112,7 @@ a:hover {
     width: 100px;
     padding: 10px;
     word-wrap: break-word;
+    font-family: 14px 'Roboto:wght@300', monospace;
 }
 
 #post_panel img {
