@@ -118,6 +118,8 @@ a:hover {
 #post_panel img {
   height: 200px;
   width: 200px;
+  border-radius: 15px;
+  opacity: .9;
 }
 
 #post_panel img:hover {
